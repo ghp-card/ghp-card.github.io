@@ -1,0 +1,47 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	box-sizing: border-box;
+	background: linear-gradient(110deg, #424242 60%, #616161 60%);
+	overflow: hidden;
+}
+
+#pidor {
+	margin: 25% auto;
+	width: 15%;
+	display: block;
+	height: 50px;
+	font-size: 22px;
+	background-color: #F44336;
+	border: 0px;
+	min-width: 150px;
+}
+
+#pidor:hover {
+	color: #FFFFFF;
+	box-shadow: 0 0 10px 5px currentColor;
+}
+
+#lang {
+	width: 2%;
+	height: 25px;
+	background-color: #F44336;
+	border: 0px;
+	font-size: 12px;
+	text-align: center;
+	padding: 0;
+	position: fixed;
+	top: 95%;
+	min-width: 25px;
+}
+
+#lang:hover {
+	color: #FFFFFF;
+	box-shadow: 0 0 10px 5px currentColor;
+}
+
