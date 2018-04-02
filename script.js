@@ -1,9 +1,7 @@
 
 function randomize() {
-  document.getElementById('pidor').style.color = randomColors();
-  document.getElementById('pidor').style.backgroundColor = randomColors();
-  document.getElementById('lang').style.color = document.getElementById('pidor').style.color;
-  document.getElementById('lang').style.backgroundColor = document.getElementById('pidor').style.backgroundColor;
+  document.getElementById('press').style.color = randomColors();
+  document.getElementById('press').style.backgroundColor = randomColors();
 }
 
 function randomColors() {
