@@ -11,7 +11,7 @@ body {
 	overflow: hidden;
 }
 
-#pidor {
+#press {
 	margin: 25% auto;
 	width: 15%;
 	display: block;
@@ -22,25 +22,7 @@ body {
 	min-width: 150px;
 }
 
-#pidor:hover {
-	color: #FFFFFF;
-	box-shadow: 0 0 10px 5px currentColor;
-}
-
-#lang {
-	width: 2%;
-	height: 25px;
-	background-color: #F44336;
-	border: 0px;
-	font-size: 12px;
-	text-align: center;
-	padding: 0;
-	position: fixed;
-	top: 95%;
-	min-width: 25px;
-}
-
-#lang:hover {
+#press:hover {
 	color: #FFFFFF;
 	box-shadow: 0 0 10px 5px currentColor;
 }
